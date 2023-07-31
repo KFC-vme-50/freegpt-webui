@@ -16,3 +16,4 @@ COPY . .
 RUN chmod -R 777 translations  
   
 CMD ["python3", "./run.py"]  
+EXPOSE 1338
